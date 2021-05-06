@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Tests, org.scalatest.tools.Framework$$anon$1@7f54fd2b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32morder[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an order with 3 pizzas[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mordering[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an order of value £30[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Given A margherita pizza costs £10 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + When I order 3 pizzas [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Then The order price should be £30 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mordering[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an order of value £32.00 with standard toppings[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Given A margherita pizza costs £10 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + And A standard topping costs £0.50 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + When I order 3 pizzas and 4 standard toppings [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Then The order price should be correct [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mordering[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return an order of value £46.00 with all toppings[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Given A margherita pizza costs £10 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + And A standard topping costs £0.50 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + And A premium topping costs £1.00 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + When I order 4 pizzas with 2 standard toppings and 5 premium toppings [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  + Then The order price should be correct [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 284 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Tests[0m
